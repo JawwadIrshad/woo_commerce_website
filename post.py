@@ -240,7 +240,7 @@ def determine_category(features, product_title, existing_categories):
         else:
             leaf_name = "toners"
     else:
-        # Printer categorization
+        # Printer categorization``
         if "refurbished" in condition:
             if "ricoh" in brand:
                 leaf_name = "ricoh refurbished printer"
