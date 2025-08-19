@@ -4,7 +4,7 @@ import csv
 import os
 
 # URL to scrape
-url = "https://abmltd.co.ke/"
+url = "https://abmltd.co.ke/" #pste your website url
 
 # File paths
 html_file = "abm_printers_page.html"
@@ -78,4 +78,5 @@ def main():
     print("Process completed successfully!")
 
 if __name__ == "__main__":
+
     main()
