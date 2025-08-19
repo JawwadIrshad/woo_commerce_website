@@ -4,7 +4,7 @@ import csv
 import os
 
 # URL to scrape - now the homepage
-url = "https://abmltd.co.ke/"
+url = "https://abmltd.co.ke/" #pase your website url
 
 # File paths
 html_file = "abmltd_homepage.html"
@@ -71,4 +71,5 @@ if __name__ == "__main__":
     if os.path.exists(html_file):
         extract_urls_to_csv()
     else:
+
         print(f"Cannot proceed - HTML file {html_file} not found")
