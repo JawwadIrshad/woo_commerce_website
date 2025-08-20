@@ -4,7 +4,7 @@ from urllib.parse import urlparse
 import time
 
 # WooCommerce API credentials
-WC_CONSUMER_KEY = ''
+WC_CONSUMER_KEY = '' #paste your woo_commerce key
 WC_CONSUMER_SECRET = ''
 
 # WooCommerce endpoints
@@ -491,3 +491,4 @@ if __name__ == "__main__":
     print("------------------------------------")
     process_products()
     print("\n✅ Import process completed")
+
