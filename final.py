@@ -135,4 +135,4 @@ driver.quit()
 with open("scraped_products_full.json", "w", encoding="utf-8") as f:
     json.dump(results, f, indent=4, ensure_ascii=False)
 
-print("🎯 Scraping complete. Data saved to scraped_products_full.json")
+print("🎯 Scraping complete. Data will saved to scraped_products_full.json")
