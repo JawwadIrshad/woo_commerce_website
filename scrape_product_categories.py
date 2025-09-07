@@ -75,7 +75,7 @@ def main():
     if not extract_urls_from_html():
         return
     
-    print("Process completed successfully!")
+    print("Process has been completed successfully!")
 
 if __name__ == "__main__":
 
