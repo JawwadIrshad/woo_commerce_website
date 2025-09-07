@@ -150,7 +150,7 @@ def create_attributes():
         )
         
         if response.status_code != 200:
-            print(f"❌ Failed to fetch attributes: {response.status_code} - {response.text}")
+            print(f"❌ Failed to the fetch attributes: {response.status_code} - {response.text}")
             return []
             
         existing_attributes = response.json()
@@ -158,7 +158,7 @@ def create_attributes():
         print(f"ℹ️ Found {len(existing_attributes)} existing attributes")
         
     except Exception as e:
-        print(f"❌ Error fetching attributes: {str(e)}")
+        print(f"❌ Error fetching the attributes: {str(e)}")
         return []
 
     created_attributes = []
