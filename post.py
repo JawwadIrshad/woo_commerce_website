@@ -445,7 +445,7 @@ def process_products():
         # Create attributes first
         existing_attributes = create_attributes()
         if not existing_attributes:
-            print("⚠️ Warning: No attributes available")
+            print("⚠️ Warning: No attributes is available")
         
         # Load existing categories
         print("\n🔍 Fetching existing categories...")
