@@ -4,11 +4,11 @@ import csv
 import os
 
 # URL to scrape - now the homepage
-url = "https://abmltd.co.ke/" #pase your website url
+url = "https://abmltd.co.ke/" #paste your website url
 
 # File paths
-html_file = "abmltd_homepage.html"
-csv_file = "extracted_urls.csv"
+html_file = "abmltd_homepage.html" #html path
+csv_file = "extracted_urls.csv" #result csv file 
 
 # Step 1: Scrape the HTML and save it
 def scrape_and_save_html():
