@@ -26,7 +26,7 @@ def scrape_product(url):
         product_data["title"] = driver.find_element(By.XPATH, "//h1[contains(@class, 'font-bold')]").text.strip()
         print(f"✔ Title: {product_data['title']}")
     except Exception as e:
-        print(f"❌ Error getting title: {e}")
+        print(f"❌ Error is getting in title: {e}")
 
     try:
         # Product price - EXACT MATCH for the element structure
