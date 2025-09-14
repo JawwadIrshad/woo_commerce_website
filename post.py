@@ -116,7 +116,7 @@ def create_category_hierarchy(parent_id=None, hierarchy=None, existing_categorie
             
             if response.status_code in [200, 201]:
                 existing_category = response.json()
-                print(f"✅ Created category: {name} (ID: {existing_category['id']})")
+                print(f"✅ Created the category: {name} (ID: {existing_category['id']})")
             elif response.status_code == 400 and "term_exists" in response.text:
                 existing_id = response.json()["data"]["resource_id"]
                 existing_category = {"id": existing_id, "name": name}
