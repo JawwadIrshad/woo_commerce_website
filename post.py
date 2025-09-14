@@ -363,7 +363,7 @@ def upload_product(product_data, existing_categories, existing_attributes):
             wc_product["categories"] = [{"id": category['id']}]
             print(f"ℹ️ Assigned category: {category['name']}")
         else:
-            print("⚠️ No matching category found")
+            print("⚠️ No matching category is found")
 
         # Handle attributes
         for key, value in features.items():
