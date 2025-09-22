@@ -4,7 +4,7 @@ import csv
 import os
 
 # URL to scrape
-url = "https://abmltd.co.ke/" #pste your website url
+url = "https://abmltd.co.ke/" #paste your website url
 
 # File paths
 html_file = "abm_printers_page.html"
