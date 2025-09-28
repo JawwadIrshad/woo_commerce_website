@@ -1,3 +1,5 @@
+#scrpae_product_caterogies.py
+
 import requests
 from bs4 import BeautifulSoup
 import csv
