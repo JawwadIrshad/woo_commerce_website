@@ -1,3 +1,4 @@
+#product.py file
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
@@ -79,3 +80,4 @@ if __name__ == "__main__":
         print(f"An error occurred: {e}")
     finally:
         driver.quit()
+
