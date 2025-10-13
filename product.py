@@ -5,8 +5,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 import csv
-
-# Configure Selenium
+
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')  # Headless mode
 service = Service(ChromeDriverManager().install())
