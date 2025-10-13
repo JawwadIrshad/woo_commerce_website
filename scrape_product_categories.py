@@ -1,14 +1,11 @@
 #scrpae_product_caterogies.py
-
 import requests
 from bs4 import BeautifulSoup
 import csv
 import os
-
-# URL to scrape
+
 url = "https://abmltd.co.ke/" #paste your website url
-
-# File paths
+
 html_file = "abm_printers_page.html"
 csv_file = "extracted2_urls.csv"
 
