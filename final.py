@@ -27,7 +27,7 @@ def scrape_product(url):
         product_data["title"] = driver.find_element(By.XPATH, "//h1[contains(@class, 'font-bold')]").text.strip()
         print(f"✔ Title: {product_data['title']}")
     except Exception as e:
-        print(f"❌ Error is getting in title: {e}")
+        print(f"❌ Error is getting in the title: {e}")
 
     try:
         # Product price - EXACT MATCH for the element structure
@@ -137,4 +137,5 @@ with open("scraped_products_full.json", "w", encoding="utf-8") as f:
     json.dump(results, f, indent=4, ensure_ascii=False)
 
 print("🎯 Scraping has been complete. Data will saved to scraped_products_full.json file")
+
 
