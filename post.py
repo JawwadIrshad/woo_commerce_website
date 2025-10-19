@@ -13,7 +13,7 @@ PRODUCTS_URL = f'{BASE_URL}/products'
 CATEGORIES_URL = f'{BASE_URL}/products/categories'
 ATTRIBUTES_URL = f'{BASE_URL}/products/attributes'
 
-# Local JSON file
+
 SOURCE_FILE = 'scraped_products_full.json'
 
 # Category hierarchy
@@ -139,7 +139,7 @@ def create_category_hierarchy(parent_id=None, hierarchy=None, existing_categorie
 
 def create_attributes():
     """Create product attributes if they don't exist"""
-    print("\n🔍 Checking/Creating product attributes...")
+    print("\n🔍 Checking/Creating the product attributes...")
     
     try:
         response = requests.get(
@@ -491,5 +491,6 @@ if __name__ == "__main__":
     print("------------------------------------")
     process_products()
     print("\n✅ Import process completed")
+
 
 
