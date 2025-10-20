@@ -21,7 +21,7 @@ def scrape_and_save_html():
         # Save HTML to file
         with open(html_file, 'w', encoding='utf-8') as file:
             file.write(response.text)
-        print(f"HTML successfully saved to {html_file}")
+        print(f"HTML has successfully saved to {html_file}")
         
     except requests.exceptions.RequestException as e:
         print(f"Error fetching the page: {e}")
