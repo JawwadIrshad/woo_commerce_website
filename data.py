@@ -24,7 +24,7 @@ def scrape_and_save_html():
             file.write(response.text)
         print(f"HTML content successfully saved to {html_file}")
     except Exception as e:
-        print(f"Error scraping HTML: {e}")
+        print(f"Error scraping is HTML: {e}")
 
 # Step 2: Read HTML and extract URLs from specific class
 def extract_urls_to_csv():
