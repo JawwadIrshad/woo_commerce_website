@@ -15,6 +15,7 @@ It scrapes product data (such as title, description, images, price, categories, 
 
 ```bash
 git clone https://github.com/JawwadIrshad/woo_commerce_website.git
+
 cd woo_commerce_website
 ```
 
