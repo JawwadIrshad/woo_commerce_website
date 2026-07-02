@@ -24,8 +24,7 @@ def scrape_products(url):
     driver.get(url)
     time.sleep(3)  # Wait for page to load
     
-    # Scroll to load products
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    # Scroll to load products  driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
     time.sleep(2)
     
     products_data = []
